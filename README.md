@@ -1,4 +1,4 @@
-# bash-snippets-scripts
+# bash-scripts
 Collection of useful bash scripts for setup, maintenance and security
 
 # License
