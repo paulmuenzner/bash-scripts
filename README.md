@@ -1,5 +1,5 @@
 # bash-scripts
-Collection of useful bash scripts for setup, maintenance and security
+Collection of useful bash scripts for flexible setup, maintenance and security implementations depending on user input instead of hard coded parameters.
 
 # License
 MIT License
