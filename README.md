@@ -1,13 +1,16 @@
 # bash-scripts
-Collection of useful bash scripts for flexible setup, maintenance and security implementations depending on user input instead of hard coded parameters.
+Collection of interactive bash scripts for flexible configurations, maintenance and security implementations based on user input instead of hard coded values.
 
-# License
-MIT License
+## Available Scripts
 
-Copyright (c) 2022 Paul M.
+### Fail2Ban setup
+Interactive installation and setup of intrusion prevention software framework Fail2Ban based on user input values. Applicable for cases where Fail2Ban is already installed and where Fail2Ban is not installed yet. After user confirmation, Fail2Ban will be installed if not done so far. A user can define the port number, number of failures before an IP is banned, the time window that fail2ban will pay attention to when looking for repeated failed authentication attempts and the duration to ban a certain IP.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+### IP version setup
+Interactive setup and selection on applied IP version upon user requests including variable initialization for the continued application. It includes validation whether IPv6 and IPv4 is supported on the system. The setup ends with a verification step which must be confirmed by the user.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+### Ping response configuration
+Enabling or disabling ping responses upon user decision for IPv4 and IPv6. The applying user can decide whether to enable or disable ping responses for both IPv4 and IPv6 addresses. The process ends with a positive response if the validation has been passed successfully.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Next steps
+Where time permits, I will look to expand this collection of interactive bash scripts. 
