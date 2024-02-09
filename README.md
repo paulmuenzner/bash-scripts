@@ -1,4 +1,4 @@
-# bash-scripts
+# Interactive Bash Scripts
 Collection of interactive bash scripts for flexible configurations, maintenance and security implementations based on user input instead of hard coded values.
 
 ## Available Scripts
